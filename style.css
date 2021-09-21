@@ -53,7 +53,7 @@
     background: var(--primary-color);
     border: none;
     color: #fff;
-    padding: 0.7rem 1rem;
+    padding: 0.7rem 1.2rem;
     border-radius: 0.5rem;
     font-size: large;
     cursor: pointer;
@@ -102,4 +102,14 @@
     width: 0%;
     border-collapse: collapse;
     padding: 0.4rem;
+  }
+
+  footer {
+    text-align: center;
+    margin-top: 250px;
+  }
+  
+  footer p {
+    font-size: small;
+    text-align: center;
   }
