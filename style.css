@@ -46,10 +46,10 @@
     border: 2px solid var(--primary-color);
     border-radius: 0.5rem;
     width: 100%;
-    max-width: 258px;
+    max-width: 280px;
   }
   
-  #check-button {
+  .btn {
     background: var(--primary-color);
     border: none;
     color: #fff;
@@ -60,6 +60,20 @@
     outline: #fff;
     margin: auto;
     display: block;
+  }
+
+  .reset-btn{
+    background: rgb(247, 59, 59);
+    border: none;
+    color: #fff;
+    padding: 0.7rem 1rem;
+    border-radius: 0.8rem;
+    font-size: small;
+    cursor: pointer;
+    outline: #fff;
+    margin: auto;
+    display: block;
+    margin-top: 20px;
   }
   
   #error-message {
