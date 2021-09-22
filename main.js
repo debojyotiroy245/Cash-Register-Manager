@@ -26,7 +26,7 @@ nextButton.addEventListener("click", function validateBillAmount(){
                 calculateChange(amountToBeReturned)
             }
             else{
-                showMessage("Cash amount should be greater than equal to bill amount")
+                showMessage("Cash amount should be greater than or equal to bill amount")
                 nextButton.style.display = "block"
                 hideAllExceptBill()
             }
