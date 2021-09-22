@@ -7,6 +7,7 @@ const returnTable = document.querySelector(".return-table")
 const noOfNotes = document.querySelectorAll(".no-of-notes")
 const nextButton = document.querySelector("#next-button")
 const resetButton = document.querySelector("#reset-button")
+
 const notes = [2000,500,100,20,10,5,1]
 
 hideAllExceptBill()
